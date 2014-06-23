@@ -1,0 +1,15 @@
+/Temp/*
+/obj/*
+/Library/*
+/Debug/*
+/Builds/*
+!/ProjectSettings/*.asset
+test_unit.unity
+test_unit.unity.meta
+*.suo
+*.sln
+*.csproj
+*.userprefs
+*.pidb
+
+!.gitignore
