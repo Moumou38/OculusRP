@@ -40,7 +40,7 @@ public class GameGeneral : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Debug.Log (Screen.lockCursor + "  " +  Screen.showCursor); 
+		//Debug.Log (Screen.lockCursor + "  " +  Screen.showCursor); 
 		/* //pause the game (UNUSED)
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			if(Constant.pause) { Constant.unPause(); time.Resume();    }
