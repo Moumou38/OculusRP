@@ -7,7 +7,7 @@ public class GameGeneral : MonoBehaviour {
 	public path intro; 
 	public GameObject player; 
 	public static path currentPath; 
-	private bool rift ; 
+	public static bool rift ; 
 	public Timer time; 
 	private GameObject cam; 
 
@@ -30,6 +30,7 @@ public class GameGeneral : MonoBehaviour {
 			cam.gameObject.SetActive(false);  
 
 			Screen.lockCursor = true ;
+			rift = false; 
 		
 		}
 						
