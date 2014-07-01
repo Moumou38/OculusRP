@@ -30,7 +30,7 @@ public class ExampleHUD : VRGUI
 						GUI.Label (new Rect (Screen.width * 0.25f, Screen.height * 0.2f, 800, 100), time.left ().Minutes + " : " + time.left ().Seconds); 
 	
 						if (pick != null && pick.treasure && pick.picture != null)
-						GUI.DrawTexture (new Rect (Screen.width * 0.6f, Screen.height * 0.15f, Screen.width * 0.25f, Screen.height * 0.2f), tex, ScaleMode.ScaleToFit, true, 0);
+						GUI.DrawTexture (new Rect (Screen.width * 0.6f, Screen.height * 0.15f, Screen.width * 0.25f, Screen.height * 0.2f), tex, ScaleMode.StretchToFill, true, 0);
 	
 						GUI.DrawTexture (new Rect (Screen.width / 2 - frameTexture.width / 2 + frameTexture.width * 0.22f, Screen.height * 0.15f + frameTexture.height * 0.4f, frameTexture.width * 0.75f, frameTexture.height * 0.45f), backgroundTexture, ScaleMode.ScaleAndCrop, true, 0);
 		
@@ -43,6 +43,14 @@ public class ExampleHUD : VRGUI
 		else {
 
 			GUI.DrawTexture (new Rect (0, Screen.height*0.1f, Screen.width, Screen.height*0.8f), RP);
+
+			/*
+			GUI.DrawTexture (new Rect (Screen.width / 2 - frameTexture.width / 2 + frameTexture.width * 0.22f, Screen.height * 0.15f + frameTexture.height * 0.4f, frameTexture.width * 0.75f, frameTexture.height * 0.45f), backgroundTexture, ScaleMode.ScaleAndCrop, true, 0);
+			
+			//GUI.DrawTexture(new Rect(0,0, foregroundTexture.width * (health/maxHealth), foregroundTexture.height), foregroundTexture); //display a hand if we can carry object
+			GUI.DrawTexture (new Rect (Screen.width / 2 - frameTexture.width / 2 + frameTexture.width * 0.22f, Screen.height * 0.15f + frameTexture.height * 0.4f, frameTexture.width * 0.75f * (Player.health / Player.maxHealth), frameTexture.height * 0.45f), foregroundTexture, ScaleMode.ScaleAndCrop, true, 0);
+			
+			GUI.DrawTexture (new Rect (Screen.width / 2 - frameTexture.width / 2, Screen.height * 0.15f, frameTexture.width, frameTexture.height), frameTexture, ScaleMode.ScaleToFit, true, 0); */
 
 
 				
