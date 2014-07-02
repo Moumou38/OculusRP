@@ -20,6 +20,8 @@ public class Player : MonoBehaviour {
 		if (health < 0)
 			Application.LoadLevel ("gameover"); 
 	
+		//Debug.Log (transform.position.y); 
+	
 	}
 
 	void OnGUI() {
