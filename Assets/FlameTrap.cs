@@ -7,7 +7,7 @@ public class FlameTrap : MonoBehaviour {
 	private bool triggered; 
 	// Use this for initialization
 	void Start () {
-		trap = GameObject.Find("trap/trap"); 
+		trap = GameObject.Find("flametrap/trap"); 
 		trap.SetActive (false); 
 		triggered = false; 
 		timer = 0f; 
