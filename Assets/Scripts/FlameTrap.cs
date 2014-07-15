@@ -17,7 +17,7 @@ public class FlameTrap : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		timer += Time.deltaTime; 
-		Debug.Log (timer);
+		//Debug.Log (timer);
 
 		if (triggered && timer < 8f) {
 						trap.SetActive (true); 	
