@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: 94b3067d77677ac4d97c21b7e771570d
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ecran_Jeu_chrono_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3334
+        width: 221
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 3334
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_2
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 3334
+        width: 223
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_3
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 3334
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_4
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 3334
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_5
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3334
+        width: 224
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3001
+        width: 221
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_7
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 3001
+        width: 220
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_8
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 3001
+        width: 223
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_9
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 3001
+        width: 220
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_10
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 3001
+        width: 220
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_11
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3001
+        width: 224
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2672
+        width: 221
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_13
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2672
+        width: 220
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_14
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 2672
+        width: 223
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_15
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2672
+        width: 220
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_16
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 2672
+        width: 220
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_17
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2672
+        width: 221
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2343
+        width: 214
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_19
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2343
+        width: 210
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_20
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 2343
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_21
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2343
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_22
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 2343
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_23
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2343
+        width: 207
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2014
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2014
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_26
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 2014
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_27
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2014
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_28
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 2014
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_29
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2014
+        width: 207
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_30
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1682
+        width: 207
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_31
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1685
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_32
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1685
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_33
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1689
+        width: 206
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_34
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1692
+        width: 206
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_35
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1696
+        width: 207
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1370
+        width: 206
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_37
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1370
+        width: 206
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_38
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1370
+        width: 206
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_39
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1370
+        width: 206
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_40
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1370
+        width: 206
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_41
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1370
+        width: 207
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_42
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1038
+        width: 206
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_43
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1038
+        width: 206
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_44
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1038
+        width: 206
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_45
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1038
+        width: 206
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_46
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1038
+        width: 206
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_47
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1038
+        width: 203
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_48
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 709
+        width: 203
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_49
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 709
+        width: 196
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_50
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 709
+        width: 189
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_51
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 709
+        width: 192
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_52
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 709
+        width: 189
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_53
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 709
+        width: 189
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_54
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 380
+        width: 192
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_55
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 380
+        width: 189
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_56
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 380
+        width: 189
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_57
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 380
+        width: 192
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_58
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 380
+        width: 189
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_59
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 380
+        width: 189
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ecran_Jeu_chrono_60
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 192
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -42,7 +42,7 @@ public class GameGeneral : MonoBehaviour {
 	void Update () {
 
 		//Debug.Log (Screen.lockCursor + "  " +  Screen.showCursor); 
-		/* //pause the game (UNUSED)
+		 //pause the game (UNUSED)
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			if(Constant.pause) { Constant.unPause(); time.Resume();    }
 			else  {Constant.Pause (); time.Pause ();   }
@@ -51,12 +51,13 @@ public class GameGeneral : MonoBehaviour {
 		if (Constant.pause) {
 			Screen.lockCursor = false;
 				}
-		else Screen.lockCursor = true ; */
+		else Screen.lockCursor = true ; 
 
 		if (time.end)
 			Application.LoadLevel ("gameover"); 
 
 		//Debug.Log (time.left ()); 
+
 
 	
 	}
@@ -69,7 +70,7 @@ public class GameGeneral : MonoBehaviour {
 		pos.y += 3;
 		player.transform.position = pos;
 
-		time.SetTime (1000 * 60 * 60); 
+		time.SetTime (1000 * 2 * 60); 
 		
 		
 	}
@@ -82,7 +83,7 @@ public class GameGeneral : MonoBehaviour {
 		pos.y += 3;
 		player.transform.position = pos;
 
-		time.SetTime (1000 * 60 *60); 
+		time.SetTime (1000 * 2 *60); 
 
 
 
