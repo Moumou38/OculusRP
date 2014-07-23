@@ -62,8 +62,8 @@ public class noOculusHUD : MonoBehaviour {
 	
 	
 	void Update() {
-		pick = GameObject.FindGameObjectWithTag("path").GetComponent<path>().treasure; 
-		tex = pick.picture; 
+		/* pick = GameObject.FindGameObjectWithTag("path").GetComponent<path>().treasure; 
+		tex = pick.picture; */
 		
 		if (Constant.pause) {
 			
@@ -126,8 +126,8 @@ public class noOculusHUD : MonoBehaviour {
 				skin.label.fontStyle = FontStyle.Bold; 
 				GUI.Label (new Rect (Screen.width / 2 - (Screen.width * 0.052f), (Screen.width * 0.15f / 4) + (Screen.width * 0.03f), Screen.height * 0.2f, Screen.height * 0.2f), time.left ().Minutes + " : " + time.left ().Seconds); 
 				
-				if (pick != null && pick.treasure && pick.picture != null)
-					GUI.DrawTexture (new Rect (Screen.width * 0.6f, Screen.height * 0.15f, Screen.height * 0.25f, Screen.height * 0.2f), tex, ScaleMode.StretchToFill, true, 0);
+				/*if (pick != null && pick.treasure && pick.picture != null)
+					GUI.DrawTexture (new Rect (Screen.width * 0.6f, Screen.height * 0.15f, Screen.height * 0.25f, Screen.height * 0.2f), tex, ScaleMode.StretchToFill, true, 0);*/
 
 				
 			} else {

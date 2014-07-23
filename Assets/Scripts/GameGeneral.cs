@@ -48,8 +48,8 @@ public class GameGeneral : MonoBehaviour {
 		//Debug.Log (Screen.lockCursor + "  " +  Screen.showCursor); 
 		 //pause the game (UNUSED)
 		if (Input.GetKeyDown (KeyCode.Escape)) {
-			if(Constant.pause) { Constant.unPause(); time.Resume(); GameObject.Find("OVRCameraController").GetComponent<OVRCameraController>().EnableOrientation = true;   }
-			else  {Constant.Pause (); time.Pause (); GameObject.Find("OVRCameraController").GetComponent<OVRCameraController>().EnableOrientation = false;   }
+			if(Constant.pause) { Constant.unPause(); time.Resume(); if (OVRDevice.IsSensorPresent () && rift) GameObject.Find("OVRCameraController").GetComponent<OVRCameraController>().EnableOrientation = true;   }
+			else  {Constant.Pause (); time.Pause (); if (OVRDevice.IsSensorPresent () && rift) GameObject.Find("OVRCameraController").GetComponent<OVRCameraController>().EnableOrientation = false;   }
 
 				}
 

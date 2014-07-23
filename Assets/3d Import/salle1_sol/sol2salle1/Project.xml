@@ -1,0 +1,197 @@
+<Project MapDefines="Default" PhysicsLookup="Default" IDMapper="Default" Mesh="" PreviewResolution="1.0" FlipY="false">
+  <Materials>
+    <BaseMaterial BitDepth="8" Resolution="100" TexelDensity="1024" Preset="C:\Users\Public\Quixel\SUITE\script\presets\Master\Default Materials.xml">
+      <Inputs>
+        <Input Name="Albedo" Path="D:\Users\demeraud\Documents\GitHub\OculusRP\Assets\3d Import\salle1_sol\sol2_salle1_D.jpg"/>
+        <Input Name="Normal" Path="D:\Users\demeraud\Documents\GitHub\OculusRP\Assets\3d Import\salle1_sol\sol2_salle1_NRM.jpg"/>
+      </Inputs>
+      <Contents>
+        <Layers>
+          <Dj-pM-eLYG MaterialID="Megascans/Dirt/Sand/sand" PhysicalID="Dirt/Sand" Name="sand" TexelDensityOffset="-2">
+            <Maps>
+              <Albedo Reflectance="6A6051" FillOpacity="100" Opacity="100" Blend="normal" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <Specular Reflectance="1C1C1E" FillOpacity="100" Opacity="100" Blend="normal" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <Gloss Reflectance="181818" FillOpacity="100" Opacity="100" Blend="normal" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <Normal Reflectance="808080" FillOpacity="100" Opacity="100" Blend="overlay" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <Height Reflectance="808080" FillOpacity="100" Opacity="100" Blend="overlay" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <AO Reflectance="808080" FillOpacity="100" Opacity="100" Blend="overlay" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <AlbedoM Reflectance="6A6051" FillOpacity="100" Opacity="100" Blend="normal" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <Metalness Reflectance="000000" FillOpacity="100" Opacity="100" Blend="normal" MaterialIntensity="50" MaterialBlend="linearLight"/>
+            </Maps>
+            <MaterialMask Name="Default">
+              <MaterialPath>Megascans/Dirt/Sand/beach</MaterialPath>
+              <TexelDensityOffset>-1</TexelDensityOffset>
+              <SecondaryMaterialPath/>
+              <SecondaryTexelDensityOffset>0</SecondaryTexelDensityOffset>
+              <MasterInverter>0</MasterInverter>
+              <MasterBlur>0</MasterBlur>
+              <TotalStrength>0</TotalStrength>
+              <TotalSpread>53</TotalSpread>
+              <TextureInfluence>92</TextureInfluence>
+              <TextureInfluenceBlend>vividLight</TextureInfluenceBlend>
+              <TextureInverter>0</TextureInverter>
+              <TextureBrightness>0</TextureBrightness>
+              <TextureContrast>51</TextureContrast>
+              <TextureTransparency>100</TextureTransparency>
+              <TextureTransparencyBlend>multiply</TextureTransparencyBlend>
+              <TextureGloss>19</TextureGloss>
+              <TextureGlossBlend>linearLight</TextureGlossBlend>
+              <TextureSpecular>25</TextureSpecular>
+              <TextureSpecularBlend>linearLight</TextureSpecularBlend>
+              <TextureDiffuse>36</TextureDiffuse>
+              <TextureDiffuseBlend>overlay</TextureDiffuseBlend>
+              <TextureAO>100</TextureAO>
+              <TextureAOBlend>multiply</TextureAOBlend>
+              <TextureHeight>100</TextureHeight>
+              <TextureHeightBlend>linearLight</TextureHeightBlend>
+              <SecondaryTextureInfluence>0</SecondaryTextureInfluence>
+              <SecondaryTextureInfluenceBlend>vividLight</SecondaryTextureInfluenceBlend>
+              <SecondaryTextureInverter>0</SecondaryTextureInverter>
+              <SecondaryTextureBrightness>0</SecondaryTextureBrightness>
+              <SecondaryTextureContrast>0</SecondaryTextureContrast>
+              <SecondaryTextureTransparency>100</SecondaryTextureTransparency>
+              <SecondaryTextureTransparencyBlend>multiply</SecondaryTextureTransparencyBlend>
+              <SecondaryTextureGloss>50</SecondaryTextureGloss>
+              <SecondaryTextureGlossBlend>linearLight</SecondaryTextureGlossBlend>
+              <SecondaryTextureSpecular>50</SecondaryTextureSpecular>
+              <SecondaryTextureSpecularBlend>linearLight</SecondaryTextureSpecularBlend>
+              <SecondaryTextureDiffuse>75</SecondaryTextureDiffuse>
+              <SecondaryTextureDiffuseBlend>overlay</SecondaryTextureDiffuseBlend>
+              <SecondaryTextureAO>75</SecondaryTextureAO>
+              <SecondaryTextureAOBlend>multiply</SecondaryTextureAOBlend>
+              <SecondaryTextureHeight>100</SecondaryTextureHeight>
+              <SecondaryTextureHeightBlend>overlay</SecondaryTextureHeightBlend>
+              <MaskPath/>
+              <MaskInfluence>100</MaskInfluence>
+              <MaskInfluenceBlend>vividLight</MaskInfluenceBlend>
+              <MaskInverter>0</MaskInverter>
+              <MaskContrast>0</MaskContrast>
+              <MaskBrightness>50</MaskBrightness>
+              <Mask1Path/>
+              <Mask1Influence>100</Mask1Influence>
+              <Mask1Inverter>0</Mask1Inverter>
+              <Mask1InfluenceBlend>vividLight</Mask1InfluenceBlend>
+              <Mask1TexelDensityOffset>0</Mask1TexelDensityOffset>
+              <Mask2Path/>
+              <Mask2Influence>100</Mask2Influence>
+              <Mask2Inverter>0</Mask2Inverter>
+              <Mask2InfluenceBlend>vividLight</Mask2InfluenceBlend>
+              <Mask2TexelDensityOffset>0</Mask2TexelDensityOffset>
+              <Mask3Path/>
+              <Mask3Influence>100</Mask3Influence>
+              <Mask3Inverter>0</Mask3Inverter>
+              <Mask3InfluenceBlend>vividLight</Mask3InfluenceBlend>
+              <Mask3TexelDensityOffset>0</Mask3TexelDensityOffset>
+              <Mask4Path/>
+              <Mask4Influence>100</Mask4Influence>
+              <Mask4Inverter>0</Mask4Inverter>
+              <Mask4InfluenceBlend>vividLight</Mask4InfluenceBlend>
+              <Mask4TexelDensityOffset>0</Mask4TexelDensityOffset>
+              <Mask5Path/>
+              <Mask5Influence>100</Mask5Influence>
+              <Mask5Inverter>0</Mask5Inverter>
+              <Mask5InfluenceBlend>vividLight</Mask5InfluenceBlend>
+              <Mask5TexelDensityOffset>0</Mask5TexelDensityOffset>
+              <Mask6Path/>
+              <Mask6Influence>100</Mask6Influence>
+              <Mask6Inverter>0</Mask6Inverter>
+              <Mask6InfluenceBlend>vividLight</Mask6InfluenceBlend>
+              <Mask6TexelDensityOffset>0</Mask6TexelDensityOffset>
+              <DirtWeightInfluence>100</DirtWeightInfluence>
+              <DirtWeightInfluenceBlend>multiply</DirtWeightInfluenceBlend>
+              <DirtWeightInverter>0</DirtWeightInverter>
+              <SurfaceInfluence>0</SurfaceInfluence>
+              <AccumulationTotalSpread>0</AccumulationTotalSpread>
+              <AccumulationInfluence>100</AccumulationInfluence>
+              <AccumulationInverter>0</AccumulationInverter>
+              <CavityInfluence>100</CavityInfluence>
+              <CavityInfluenceBlend>normal</CavityInfluenceBlend>
+              <CavityInverter>0</CavityInverter>
+              <CavityMode>cavities</CavityMode>
+              <CavityBrightness>0</CavityBrightness>
+              <CavityContrast>0</CavityContrast>
+              <SharpCavity>48</SharpCavity>
+              <SharpCavityBlend>overlay</SharpCavityBlend>
+              <FineCavity>73</FineCavity>
+              <FineCavityBlend>overlay</FineCavityBlend>
+              <SoftCavity>50</SoftCavity>
+              <SoftCavityBlend>overlay</SoftCavityBlend>
+              <MediumCavity>0</MediumCavity>
+              <MediumCavityBlend>overlay</MediumCavityBlend>
+              <BigCavity>0</BigCavity>
+              <BigCavityBlend>linearLight</BigCavityBlend>
+              <LargeCavity>0</LargeCavity>
+              <LargeCavityBlend>linearLight</LargeCavityBlend>
+              <HugeCavity>27</HugeCavity>
+              <HugeCavityBlend>linearLight</HugeCavityBlend>
+              <AOInfluence>100</AOInfluence>
+              <AOInfluenceBlend>linearDodge</AOInfluenceBlend>
+              <AOInverter>100</AOInverter>
+              <AOBlur>8</AOBlur>
+              <AOGamma>92</AOGamma>
+              <AOContrast>0</AOContrast>
+              <DisplacementInfluence>0</DisplacementInfluence>
+              <DisplacementInfluenceBlend>multiply</DisplacementInfluenceBlend>
+              <DisplacementInverter>0</DisplacementInverter>
+              <DisplacementBrightness>0</DisplacementBrightness>
+              <DisplacementContrast>25</DisplacementContrast>
+              <DisplacementBlur>0</DisplacementBlur>
+              <OSInfluence>0</OSInfluence>
+              <OSInfluenceBlend>linearDodge</OSInfluenceBlend>
+              <OSInverter>0</OSInverter>
+              <OSBlur>0</OSBlur>
+              <OSExposure>0</OSExposure>
+              <OSGamma>50</OSGamma>
+              <OSContrast>0</OSContrast>
+              <OSXInfluence>0</OSXInfluence>
+              <OSXInfluenceBlend>overlay</OSXInfluenceBlend>
+              <OSXScaler2>100</OSXScaler2>
+              <OSXScaler1>100</OSXScaler1>
+              <OSXScaler1Blend>linearBurn</OSXScaler1Blend>
+              <OSXInverter>0</OSXInverter>
+              <OSYInfluence>100</OSYInfluence>
+              <OSYInfluenceBlend>overlay</OSYInfluenceBlend>
+              <OSYScaler2>100</OSYScaler2>
+              <OSYScaler1>100</OSYScaler1>
+              <OSYScaler1Blend>linearBurn</OSYScaler1Blend>
+              <OSYInverter>0</OSYInverter>
+              <OSZInfluence>0</OSZInfluence>
+              <OSZInfluenceBlend>overlay</OSZInfluenceBlend>
+              <OSZScaler2>100</OSZScaler2>
+              <OSZScaler1>100</OSZScaler1>
+              <OSZScaler1Blend>linearBurn</OSZScaler1Blend>
+              <OSZInverter>0</OSZInverter>
+              <GradientInfluence>0</GradientInfluence>
+              <GradientInverter>0</GradientInverter>
+              <GradientGamma>50</GradientGamma>
+              <GradientOffset>50</GradientOffset>
+              <GradientXInfluence>0</GradientXInfluence>
+              <GradientXInfluenceBlend>normal</GradientXInfluenceBlend>
+              <GradientXInverter>0</GradientXInverter>
+              <GradientYInfluence>100</GradientYInfluence>
+              <GradientYInfluenceBlend>normal</GradientYInfluenceBlend>
+              <GradientYInverter>0</GradientYInverter>
+              <GradientZInfluence>0</GradientZInfluence>
+              <GradientZInfluenceBlend>normal</GradientZInfluenceBlend>
+              <GradientZInverter>0</GradientZInverter>
+              <Background>50</Background>
+            </MaterialMask>
+          </Dj-pM-eLYG>
+          <HEFrPvzl MaterialID="Megascans/Grass/Cut/Lawn" PhysicalID="Nature/Grass" Name="Lawn" TexelDensityOffset="0">
+            <Maps>
+              <Albedo Reflectance="3E4415" FillOpacity="100" Opacity="100" Blend="normal" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <Specular Reflectance="2e2e2e" FillOpacity="100" Opacity="100" Blend="normal" MaterialIntensity="20" MaterialBlend="overlay"/>
+              <Gloss Reflectance="262525" FillOpacity="100" Opacity="100" Blend="normal" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <Normal Reflectance="808080" FillOpacity="100" Opacity="100" Blend="overlay" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <Height Reflectance="808080" FillOpacity="100" Opacity="100" Blend="overlay" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <AO Reflectance="808080" FillOpacity="100" Opacity="100" Blend="overlay" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <AlbedoM Reflectance="3E4415" FillOpacity="100" Opacity="100" Blend="normal" MaterialIntensity="50" MaterialBlend="linearLight"/>
+              <Metalness Reflectance="000000" FillOpacity="100" Opacity="100" Blend="normal" MaterialIntensity="50" MaterialBlend="linearLight"/>
+            </Maps>
+          </HEFrPvzl>
+        </Layers>
+        <Groups/>
+      </Contents>
+    </BaseMaterial>
+  </Materials>
+</Project>
