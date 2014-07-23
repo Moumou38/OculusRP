@@ -16,19 +16,20 @@ public class GameGeneral : MonoBehaviour {
 		rift = true; 
 
 		if (OVRDevice.IsSensorPresent () && rift) {
-						Debug.Log ("Oculus ready"); 
+			//Debug.Log ("Oculus ready"); 
 			cam = GameObject.Find("normalCam"); 
 			cam.gameObject.SetActive(false); 
+
 
 			Screen.lockCursor = true ;
 			Screen.showCursor = false; 
 
 				} 
 		else {
-			Debug.Log ("Fuck you !"); 
+			//Debug.Log ("Fuck you !"); 
 			cam = GameObject.Find("OVRCameraController"); 
 			cam.gameObject.SetActive(false);  
-
+			//Screen.showCursor = false; 
 			Screen.lockCursor = true ;
 			rift = false; 
 		
@@ -41,17 +42,17 @@ public class GameGeneral : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		//Screen.lockCursor = true ;
+		//Screen.showCursor = false; 
+
 		//Debug.Log (Screen.lockCursor + "  " +  Screen.showCursor); 
 		 //pause the game (UNUSED)
 		if (Input.GetKeyDown (KeyCode.Escape)) {
-			if(Constant.pause) { Constant.unPause(); time.Resume();    }
-			else  {Constant.Pause (); time.Pause ();   }
+			if(Constant.pause) { Constant.unPause(); time.Resume(); GameObject.Find("OVRCameraController").GetComponent<OVRCameraController>().EnableOrientation = true;   }
+			else  {Constant.Pause (); time.Pause (); GameObject.Find("OVRCameraController").GetComponent<OVRCameraController>().EnableOrientation = false;   }
 
 				}
-		if (Constant.pause) {
-			Screen.lockCursor = false;
-				}
-		else Screen.lockCursor = true ; 
+
 
 		if (time.end)
 			Application.LoadLevel ("gameover"); 
@@ -96,6 +97,7 @@ public class GameGeneral : MonoBehaviour {
 	}
 
 	public void EndGame() {
+		Player.time = (time.left ().Minutes + 1) * (time.left ().Seconds) ; 
 		Player.score = (int)((time.left ().Minutes + 1) * (time.left ().Seconds + 1) * (Player.health / 100)); 
 		Application.LoadLevel ("gameover"); 
 	}

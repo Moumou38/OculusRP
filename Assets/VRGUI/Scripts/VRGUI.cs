@@ -20,16 +20,20 @@ public abstract class VRGUI : MonoBehaviour
 	
 	private void Initialize () 
 	{
-		// create the render plane
-		if (useCurvedSurface)
-		{
-			guiRenderPlane = Instantiate(Resources.Load("VRGUICurvedSurface")) as GameObject;
-		}
-		else
-		{
-			guiRenderPlane = Instantiate(Resources.Load("VRGUIFlatSurface")) as GameObject;
-		}
+	
+			// create the render plane
+			if (useCurvedSurface)
+			{
+				guiRenderPlane = Instantiate(Resources.Load("VRGUICurvedSurface")) as GameObject;
+			}
+			else
+			{
+				guiRenderPlane = Instantiate(Resources.Load("VRGUIFlatSurface")) as GameObject;
+			}
+
 		
+	
+
 		// position the render plane
 		guiRenderPlane.transform.parent        = this.transform;
 		guiRenderPlane.transform.localPosition = guiPosition;
@@ -51,7 +55,7 @@ public abstract class VRGUI : MonoBehaviour
 			}
 			else
 			{
-				cursor = Resources.Load("SimpleCursor") as Texture;
+				//cursor = Resources.Load("SimpleCursor") as Texture;
 			}
 		}
 		

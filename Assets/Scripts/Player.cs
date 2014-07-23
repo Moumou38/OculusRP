@@ -4,8 +4,9 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
 	public static int score;
-	public static float maxHealth = 100; 
-	public static float health = 100; 
+	public static int time;
+	public static float maxHealth = 90; 
+	public static float health = 150; 
 
 	
 

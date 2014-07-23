@@ -38,6 +38,9 @@ public class Menu : MonoBehaviour {
 		menuOptions[1] = "Explications";
 		Vector2 v = new Vector2 (Screen.width/2 - 150, Screen.height / 4); 
 		custom.contentOffset = v; 
+
+		Screen.showCursor = false; 
+		Screen.lockCursor = true ;
 	}
 	
 	int menuSelection (string[] menuItems,int selectedItem,string direction) {
@@ -139,7 +142,7 @@ public class Menu : MonoBehaviour {
 								GUI.DrawTexture (new Rect (x, y, Screen.width, Screen.height), introTex, ScaleMode.StretchToFill, true, 0);
 						else
 								GUI.DrawTexture (new Rect (x, y, Screen.width, Screen.height), menu [state], ScaleMode.StretchToFill, true, 0);
-						GUI.DrawTexture (new Rect (x, y, Screen.width, Screen.height), hand, ScaleMode.StretchToFill, true, 0);
+						//GUI.DrawTexture (new Rect (x, y, Screen.width, Screen.height), hand, ScaleMode.StretchToFill, true, 0);
 
 						if (!intro) { 
 								if (state == 0) {

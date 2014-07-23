@@ -22,6 +22,7 @@ public class Raycast : VRGUI
 	
 	void Update()
 	{
+
 		Vector3 rayDirection = cameraTransform.TransformDirection(Vector3.forward);
 		Vector3 rayStart = cameraTransform.position + rayDirection; 
 		//ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f)); 
@@ -55,7 +56,6 @@ public class Raycast : VRGUI
 			else {
 				if (pickable) { 
 					GUI.DrawTexture(new Rect(Screen.width / 2 - (hand.width * 0.5f), Screen.height / 2 - (hand.height * 0.5f), hand.width, hand.height), hand); //display a hand if we can carry object
-					GUI.Box (new Rect (0,Screen.height - 50,Screen.width,50), "GRAB ME I'M FAMOUS");		
 				}
 				else GUI.DrawTexture(new Rect(Screen.width / 2 - (reticle.width * 0.5f), Screen.height / 2 - (reticle.height * 0.5f), reticle.width, reticle.height), reticle); //display reticle if object non pickable				
 				
