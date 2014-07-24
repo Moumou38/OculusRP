@@ -12,7 +12,18 @@ public class noOculusHUD : MonoBehaviour {
 	public Texture foregroundTexture; 	
 	public Texture RP; 	
 	private bool rift ; 
+
+
+	public Texture[] heart; 
+	private Texture[][] healthbar ; 
 	
+	private int currentheart; 
+	private int index; 
+	private int index1; 
+	private int index2; 
+
+
+
 	public Texture[] timerTex; 
 	
 	public Texture menu; 
@@ -36,6 +47,15 @@ public class noOculusHUD : MonoBehaviour {
 		y = 0; 
 		timer = 0f; 
 		indexTimer = 0; 
+
+		healthbar = new Texture[3][]; 
+		healthbar [0] = heart; 
+		healthbar [1] = heart; 
+		healthbar [2] = heart; 
+		currentheart = 0; 
+		index = 0; 
+		index1 = 0;
+		index2 = 0;
 	}
 	
 	int menuSelection (string[] menuItems,int selectedItem,string direction) {
@@ -58,13 +78,78 @@ public class noOculusHUD : MonoBehaviour {
 		
 		return selectedItem;
 	}
+
+	void health() {
+		
+		if (Obstacle.contact) {
+			StartCoroutine ("ReduceLife"); 
+			
+			
+		}
+		
+	}
 	
+	IEnumerator ReduceLife() {
+		int oldindex; 
+		if (currentheart == 0) { 
+			oldindex = index + 10;
+			while(index < oldindex)  { 
+				
+				index++; 
+				
+				//Debug.Log(index); 
+				
+				yield return null; }
+			
+			if (index >= 60 && currentheart  == 0) {
+				index = 60; 
+				currentheart++;
+				
+			}
+		}
+		
+		if (currentheart == 1) { 
+			oldindex = index1 + 10;
+			while(index1 < oldindex)  { 
+				
+				index1++; 
+				
+				//Debug.Log(index1); 
+				
+				yield return null; }
+			
+			if (index1 >= 60 && currentheart  == 1) {
+				index1 = 60; 
+				currentheart++;
+				
+			}
+		}
+		
+		if (currentheart == 2) { 
+			oldindex = index2 + 10;
+			while(index2 < oldindex)  { 
+				
+				index2++; 
+				
+				//Debug.Log(index2); 
+				
+				yield return null; }
+			
+			if (index2 >= 60 && currentheart  == 0) {
+				index2 = 60; 
+
+				
+			}
+		}
+		
+		
+	}
 	
 	
 	void Update() {
 		/* pick = GameObject.FindGameObjectWithTag("path").GetComponent<path>().treasure; 
 		tex = pick.picture; */
-		
+		health (); 
 		if (Constant.pause) {
 			
 			if (Input.GetAxisRaw ("Vertical") > 0) {
@@ -128,6 +213,9 @@ public class noOculusHUD : MonoBehaviour {
 				
 				/*if (pick != null && pick.treasure && pick.picture != null)
 					GUI.DrawTexture (new Rect (Screen.width * 0.6f, Screen.height * 0.15f, Screen.height * 0.25f, Screen.height * 0.2f), tex, ScaleMode.StretchToFill, true, 0);*/
+				GUI.DrawTexture (new Rect (Screen.width * 0.5f, Screen.height * 0.2f, Screen.width * 0.10f, Screen.height * 0.10f), healthbar[0][index2], ScaleMode.ScaleToFit, true, 0);
+				GUI.DrawTexture (new Rect (Screen.width * 0.5f + Screen.width * 0.037f  , Screen.height * 0.2f, Screen.width * 0.10f, Screen.height * 0.10f), healthbar[1][index1], ScaleMode.ScaleToFit, true, 0);
+				GUI.DrawTexture (new Rect (Screen.width * 0.5f + Screen.width * 0.037f * 2f   , Screen.height * 0.2f, Screen.width * 0.10f, Screen.height * 0.10f), healthbar[2][index], ScaleMode.ScaleToFit, true, 0);
 
 				
 			} else {
@@ -139,7 +227,8 @@ public class noOculusHUD : MonoBehaviour {
 				
 				
 			}
-			
+
+
 		} 
 		
 		

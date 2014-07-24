@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ArrowTrap : MonoBehaviour {
 
-	private GameObject trap; 
+	public GameObject trap; 
 	private float timer; 
 	private bool triggered; 
 	public GameObject arrow; 
@@ -11,9 +11,9 @@ public class ArrowTrap : MonoBehaviour {
 	public Transform target;
 	public Transform startPoint; 
 	private float startTime; 
+	public float maxtime; 
 	// Use this for initialization
 	void Start () {
-		trap = GameObject.Find("arrowtrap/trap"); 
 		trap.SetActive (false); 
 		triggered = false; 
 		timer = 0f; 
@@ -30,7 +30,7 @@ public class ArrowTrap : MonoBehaviour {
 						arrow.transform.position = startPoint.position; 
 		
 
-		if (triggered && timer < 20f) {
+		if (triggered && timer < maxtime) {
 			trap.SetActive (true); 	
 		} else
 			trap.SetActive (false);  

@@ -20,6 +20,11 @@ public class ExampleHUD : VRGUI
 	public Texture[] heart; 
 	private Texture[][] healthbar ; 
 
+	private int currentheart; 
+	private int index; 
+	private int index1; 
+	private int index2; 
+
 	public Texture menu; 
 	public Texture[] button1; 
 	private int b1; 
@@ -32,10 +37,7 @@ public class ExampleHUD : VRGUI
 
 	private float timer; 
 
-	private int currentheart; 
-	private int index; 
-	private int index1; 
-	private int index2; 
+
 
 
 	void Start() {
@@ -97,7 +99,7 @@ public class ExampleHUD : VRGUI
 				
 				index++; 
 				
-				Debug.Log(index); 
+				//Debug.Log(index); 
 				
 				yield return null; }
 				
@@ -114,7 +116,7 @@ public class ExampleHUD : VRGUI
 				
 				index1++; 
 				
-				Debug.Log(index1); 
+				//Debug.Log(index1); 
 				
 				yield return null; }
 			
@@ -131,7 +133,7 @@ public class ExampleHUD : VRGUI
 				
 				index2++; 
 				
-				Debug.Log(index2); 
+				//Debug.Log(index2); 
 				
 				yield return null; }
 			
@@ -148,8 +150,8 @@ public class ExampleHUD : VRGUI
 
 
 	void Update() {
-		pick = GameObject.FindGameObjectWithTag("path").GetComponent<path>().treasure; 
-		tex = pick.picture; 
+		/* pick = GameObject.FindGameObjectWithTag("path").GetComponent<path>().treasure; 
+		tex = pick.picture;*/ 
 		health (); 
 		if (Constant.pause) {
 
@@ -215,7 +217,10 @@ public class ExampleHUD : VRGUI
 						/*if (pick != null && pick.treasure && pick.picture != null)
 						GUI.DrawTexture (new Rect (Screen.width * 0.6f, Screen.height * 0.15f, Screen.width * 0.25f, Screen.height * 0.2f), tex, ScaleMode.StretchToFill, true, 0);
 						*/
-						
+				GUI.DrawTexture (new Rect (Screen.width * 0.5f, Screen.height * 0.2f, Screen.width * 0.10f, Screen.height * 0.10f), healthbar[0][index2], ScaleMode.ScaleToFit, true, 0);
+				GUI.DrawTexture (new Rect (Screen.width * 0.5f + Screen.width * 0.037f  , Screen.height * 0.2f, Screen.width * 0.10f, Screen.height * 0.10f), healthbar[1][index1], ScaleMode.ScaleToFit, true, 0);
+				GUI.DrawTexture (new Rect (Screen.width * 0.5f + Screen.width * 0.037f * 2f   , Screen.height * 0.2f, Screen.width * 0.10f, Screen.height * 0.10f), healthbar[2][index], ScaleMode.ScaleToFit, true, 0);
+
 			}
 			else {
 				GUI.DrawTexture (new Rect (x, y, Screen.width, Screen.height), menu, ScaleMode.StretchToFill, true, 0);
@@ -224,12 +229,10 @@ public class ExampleHUD : VRGUI
 				GUI.DrawTexture (new Rect (x, y, Screen.width, Screen.height), button2 [b2], ScaleMode.StretchToFill, true, 0);
 
 
+
 			}
 
 
-			GUI.DrawTexture (new Rect (Screen.width * 0.5f, Screen.height * 0.2f, Screen.width * 0.10f, Screen.height * 0.10f), healthbar[0][index2], ScaleMode.ScaleToFit, true, 0);
-			GUI.DrawTexture (new Rect (Screen.width * 0.5f + Screen.width * 0.037f  , Screen.height * 0.2f, Screen.width * 0.10f, Screen.height * 0.10f), healthbar[1][index1], ScaleMode.ScaleToFit, true, 0);
-			GUI.DrawTexture (new Rect (Screen.width * 0.5f + Screen.width * 0.037f * 2f   , Screen.height * 0.2f, Screen.width * 0.10f, Screen.height * 0.10f), healthbar[2][index], ScaleMode.ScaleToFit, true, 0);
 			} 
 
 	}
